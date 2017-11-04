@@ -1,0 +1,24 @@
+%expert system to find thermostat setting at workplace.
+ 
+  
+% expert rules
+ 
+% If it's saturday or sunday it's the weekend
+% If it's not the weekend or a holiday, it's a workday. 
+% Fridays in August are holidays 
+% Business hours are on workdays from 9 to 5
+% The office is closed outside of business hours
+% Summer is the months of June, July and August, fall - September, October, and November, winter - December, January, and
+% February, spring - March, April, and May.
+% The thermostat setting in spring and fall, during business hours should be 70
+% The thermostat setting in spring and fall, when the office is closed should be 50
+% The thermostat setting in winter, during business hours should be 68
+% The thermostat setting in winter, when the office is closed should be 45
+% The thermostat setting in summer, during business hours should be 74
+% The thermostat setting in summer, when the office is closed should be 85
+
+
+% The following 3 can be changed for different answers
+month(august).
+day(friday).
+time(11).
