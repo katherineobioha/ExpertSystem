@@ -1,2 +1,2 @@
 # ExpertSystem
-Thermostat setting written in Perl Scrip for an office (Artificial Intelligence)
+Thermostat setting for an office written in Perl Script  (Artificial Intelligence)
